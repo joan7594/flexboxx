@@ -1,0 +1,186 @@
+/*General CSS*/
+body	{
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px
+	font-family: Arial, Calibri;
+}
+
+nav{
+	background-color: cadetblue;
+	color: white;
+}
+nav #nav-list {
+	display: flex;
+	justify-content: flex-end;
+	list-style-type:none;
+	margin: 0px;
+	padding:0px;
+}
+.card-title {
+	grid-row-gap: 20px;
+}
+
+nav ul li{
+	padding: 16px;
+	text-align: center;
+	border: 1px solid black;
+	transition: background-color 0.3s;
+}
+
+nav ul li:hover{
+	background-color: black;
+}
+
+a{
+	text-decoration-line: none;
+	color: white;
+}
+
+#main{
+	background:linear-gradient(to top,rgba(19, 78, 94, 0.5),rgba(31, 107, 107,0.5),rgba(22, 34, 42,1)),url(abcd.jpg);
+	min-height:500px;
+	margin-top:0px;
+	background-size: cover;
+	padding-top: 200px
+	text-align:center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	margin-bottom: 80px;
+}
+#main h1{
+	margin: 0px;
+	text-align: center;
+	font-size: 2.5rem
+
+}
+
+#main p{
+	width: 50%;
+	text-align: center;
+	justify-content: center;
+}
+
+#testimonials{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+
+.customer {
+	border:2px solid black;
+	border-radius: 100px;
+	margin-right: 20px;
+	box-shadow: 0px, 0px, 5px;
+	margin: 30px;
+	transition:transform 0.3s;
+}
+
+.customer:hover{
+	box-shadow: 0px,0px,25px;
+}
+
+#showcase{
+	display:flex
+	flex-wrap:wrap;
+	padding: 10px;
+	justify-content: center;
+}
+
+.cards {
+	max-width: 200px;
+	display: flex;
+	flex direction: column;
+	margin: 20px;
+	border-radius: 5px;
+	box-shadow: 0px, 0px, 5px;
+
+}
+
+.cards .cards-img {
+	height:100px;
+	overflow: hidden;
+}
+
+.cards .card-img {
+	height: 100px;
+	min-width:100px;
+	min-width: 50px;
+}
+
+.card .card-title {
+	padding: 100px;
+
+.card .card-desc{
+	padding: 10px;
+	margin-bottom: 100px;
+
+.cards .button a{
+	padding: 10px;
+	color: white;
+	background-color: #dd1818;
+	border-radius: 100px;
+
+}
+
+.cards .button a:hover{
+	background-color: #333333;
+	box-shadow: 0px, 0px, 30px;
+
+.fa{
+	padding-top: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fa:hover{
+	opacity: 0.7;
+}
+
+.fa-facebook{
+	background: #3B5998;
+	color:white;
+}
+.fa-twitter{
+	background: #55ACEE;
+	color: white;
+}
+
+footer a{
+	padding: 20px;
+	display: block;
+}
+footer{
+	background-color: #E44D26;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+#media-icons ul{
+	display: flex;
+	list-style-type: none;
+	padding: 20px;
+}
+}
+/*for responsive web design*/
+@media screen and (min-width:700px) {
+	nav ul {
+		text-align: right;
+
+	}
+	nav ul li {
+		display: inline-block;
+		border-bottom: 0px;
+		border-left: 1px solid;
+		text-align: left;
+	}
+
+}

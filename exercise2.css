@@ -1,0 +1,34 @@
+/*General CSS*/
+body	{
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px
+	font-family: Arial, Calibri;
+}
+nav{
+	background-color: cadetblue;
+	color: white;
+}
+nav #nav-list {
+	list-style-type:none;
+	margin: 0px;
+	padding:0px;
+	
+}
+
+nav ul li{
+	padding: 16px;
+	text-align: center;
+	border: 1px solid black;
+	transition: background-color 0.3s;
+}
+
+nav ul li:hover{
+	background-color: black;
+}
+
+a{
+	text-decoration-line: none;
+	color: white;
+}

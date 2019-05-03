@@ -1,0 +1,30 @@
+nav	{
+	display: flex;
+	background-color: cadetblue;
+	justify-content: space-between;
+}
+
+#nav-list{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+
+#main-links ul li {
+	list-style: none;
+	padding:5px;
+ 	}
+
+ #logo {
+	padding: 20px;
+	order: -1;
+ }
+
+#social-links {
+	display: flex;
+	list-style: none;
+	padding: 20px;
+
+}
+
+
