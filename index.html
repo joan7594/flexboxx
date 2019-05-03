@@ -3,138 +3,240 @@
 <head>
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Volkhov:700" rel="stylesheet">
 </head>
 <body>
-	<nav>
-		<ul id="nav-list">
-			<li><a href="#">HOME</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">About Us</a></li>
-			<li><a href="#">Contact Us</a></li>
-		</ul>
-	</nav>
-	<section id="main">
-		<h1> JMSF Furniture</h1>
-		<p> Everything is by design</p>
-		<p> Who we are?
-JMSF Furniture is a producer of office furniture systems, chairs, tables, other office furnishings and Home Furniture. We believe in a good design workplace can elevate morale and improve productivity of people and promote the image of the company and home.
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-In our effort to serve you better and deliver quality items and materials, we strive for continuous improvement of our products, services and our people.</p>
-	</section>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
 
-	<section id="testimonials">
-		<div class="customer">
-			<img src="https://robohash.org/jhang">
-			<p> Hi JMSF Furniture, for the Items delivered, all furnitures are okay and in good condition. No defects were found and the staff are very professional and quick in assembling the parts needed to attach.I sincerely thank you for being responsive in all of my queries. I understand that the changes in the delivery wasn’t your fault, but nevertheless I hope the committed delivery time can be guaranteed once you have informed the client. Overall, it’s still okay and found you some room for improvements. Stay humble and patient with your upcoming clients!!! Have a great day!Thanks </p>
-		</div>
-		<div class="customer">
-			<img src="https://robohash.org/james">
-			<p>  Dear Ma’am/Sir,Krimsson Industries Co. Inc, would like to say thank you for the quality and good services you provided on us. We truly appreciate your company and the staffs for being so responsive and accommodating. Being your partner, we are satisfied with your services especially on gettingour products and deliveries on time. You help us keep the trust and satisfaction we provide to our clients as well.We are looking forward to continue doing business with you for more years.Thank you very much! </p>
-		</div>
-		<div class="customer">
-			<img src="https://robohash.org/janna">
-			<p> Hi, I would like to commend JMSF Furniture, especially Ms. Sheryl Lanon for assisting about my request from quotation to order proper and payment. She respond to my email quickly and I don't have any problem contacting her if I have a questions. We bought 6 office table and it's very affordable compare to other supplier and it has good quality. One problem that I encounter is during the delivery date,but everything is well now. </p>
-		</div>
-		<div class="customer">
-			<img src="https://robohash.org/ezekiel">
-			<p>  JMSF Furniture provided M.Y. Concepto Corp. quality-assured products but yet one of the cheapest. They've proven that product standards can still be maintained with low-costings. And in spite of this edge, they provided us relentless customer-centered service to all our demands especially to our agent, Elaiza. This company definitely gave us huge win-win transactions - No. 1 reason to seek them again in the future. </p>
-		</div>
+  <section id="card">
+  <div class="row">
+   <div class="card col-sm-3">
+   <div class="card-body">
+    <img src="a.chair.jpg" width="300" height="300">
+    <h4 class="card-title">Office Chair</h4>
+    <p class="card-text">Some example text. Some example text.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
 
-	</section>
-	<section id="showcase">
-		<div class="cards">
-			<!-- First Card -->
-			<div class="card-img">
-				<img src="clericalnewx.jpg">
-			</div>
-			<div class="card title">
-				<h2> Office Seating </h2>
-			</div> 
-			<div class="card-desc">
-				<p> Clerical Chair</p>
-			</div>
-			<div class="button">
-				<a href="#">Buy now!</a>
-			</div>
-			<!-- Second Card -->
-			<div class="card-img">
-				<img src="partitionnewx.jpg">
-			</div>
-			<div class="card title">
-				<h2> Office Partition </h2>
-			</div>
-			<div class="card-desc">
-				<p> Foldable Partition </p>
-			</div>
-			<div class="button">
-				<a href="#">Buy now!</a>
-			</div>
-			<!-- Third Card -->
-			<div class="card-img">
-				<img src="tablenewx.jpg">
-			</div>
-			<div class="card title">
-				<h2> Office Table </h2>
-			</div>
-			<div class="card-desc">
-				<p> Conference Table</p>
-			</div>
-			<div class="button">
-				<a href="#">Buy now!</a>
-			</div>
-			<!-- Fourth Card -->
-			<div class="card-img">
-				<img src="filingnewx.jpg">
-			</div>
-			<div class="card title">
-				<h2> Filing/Storage Cabinet </h2>
-			</div>
-			<div class="card-desc">
-				<p> Steel Filing Cabinet </p>
-			</div>
-			<div class="button">
-				<a href="#">Buy now!</a>
-			</div>
-			<!-- Fifth Card -->
-			<div class="card-img">
-				<img src="windownew.jpg">
-			</div>
-			<div class="card title">
-				<h2> Other Office Essentials </h2>
-			</div>
-			<div class="card-desc">
-				<p> Window Blinds </p>
-			</div>
-			<div class="button">
-				<a href="#">Buy now!</a>
-			</div>
-			<!-- Sixth Card -->
-			<div class="card-img">
-				<img src="diningnewx.jpg">
-			</div>
-			<div class="card title">
-				<h2> Home Furniture </h2>
-			</div>
-			<div class="card-desc">
-				<p> Dining Sets </p>
-			</div>
-			<div class="button">
-				<a href="#">Buy now!</a>
-			</div>
-		</div>
-	</section>
-<footer>
-	<div id="media-icons">
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<ul>
-			<li><a href="#" class="fa fa-facebook"><i class="fab fa-facebook-f"></i></a></li>
-			<li><a href="#" class="fa fa-twitter"></a></li>
-		</ul>
-		
-	</div>
-</footer>		
-	
+  <div class="card col-sm-3">
+  <div class="card-body">
+    <img src="a.table.jpg" width="300" height="300">
+    <h4 class="card-title">Office Table</h4>
+    <p class="card-text">Some example text. Some example text.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+
+  <div class="card col-sm-3">
+  <div class="card-body">
+    <img src="a.con.jpg" width="300" height="300">
+    <h4 class="card-title">Filing Cabinet</h4>
+    <p class="card-text">Some example text. Some example text.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+
+  <div class="card col-sm-3">
+  <div class="card-body">
+    <img src="a.blinds.jpg" width="300" height="300">
+    <h4 class="card-title">Window Blinds</h4>
+    <p class="card-text">Some example text. Some example text.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+
+</div>
+</section>
+
+<div class="jumbotron col-sm-8 col-md-12 col-lg-12">
+  <h1 class="display-4">JMSF Furniture</h1>
+  <p class="lead">JMSF Furniture is a producer of office furniture systems, chairs, tables, other office furnishings and Home Furniture. We believe in a good design workplace can elevate morale and improve productivity of people and promote the image of the company and home.</p>
+  <hr class="my-4">
+  <p>Your Home and Office Furniture Solution</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+
+<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="10000">
+      <img src="a.chair.jpg" class="d-block w-50 mx-auto" alt="..." width="300" height="500">
+    </div>
+    <div class="carousel-item" data-interval="2000">
+      <img src="a.con.jpg" class="d-block w-50 mx-auto" alt="..." width="300" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="a.part.jpg" class="d-block w-50 mx-auto" alt="..." width="300" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="a.blinds.jpg" class="d-block w-50 mx-auto" alt="..." width="300" height="500">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- Section: Testimonials v.1 -->
+<section class="text-center my-5 p-1">
+
+  <!-- Section heading -->
+  <h2 class="h1-responsive font-weight-bold my-5">Testimonials</h2>
+  <!-- Section description -->
+  <p class="dark-grey-text w-responsive mx-auto mb-5"></p>
+
+  <!-- Grid row -->
+  <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+      <!--Card-->
+      <div class="card testimonial-card">
+        <!--Background color-->
+        <div class="card-up info-color"></div>
+        <!--Avatar-->
+        <div class="avatar mx-auto white">
+          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle img-fluid">
+        </div>
+        <div class="card-body">
+          <!--Name-->
+          <h4 class="font-weight-bold mb-4">John Doe</h4>
+          <hr>
+          <!--Quotation-->
+          <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Hi JMSF Furniture, for the Items delivered, all furnitures are okay and in good condition. No defects were found and the staff are very professional and quick in assembling the parts needed to attach.I sincerely thank you for being responsive in all of my queries. I understand that the changes in the delivery wasn’t your fault, but nevertheless I hope the committed delivery time can be guaranteed once you have informed the client. Overall, it’s still okay and found you some room for improvements. Stay humble and patient with your upcoming clients!!! Have a great day!Thanks</p>
+        </div>
+      </div>
+      <!--Card-->
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+      <!--Card-->
+      <div class="card testimonial-card">
+        <!--Background color-->
+        <div class="card-up blue-gradient">
+        </div>
+        <!--Avatar-->
+        <div class="avatar mx-auto white">
+          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle img-fluid">
+        </div>
+        <div class="card-body">
+          <!--Name-->
+          <h4 class="font-weight-bold mb-4">Anna Aston</h4>
+          <hr>
+          <!--Quotation-->
+          <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Dear Ma’am/Sir,Krimsson Industries Co. Inc, would like to say thank you for the quality and good services you provided on us. We truly appreciate your company and the staffs for being so responsive and accommodating. Being your partner, we are satisfied with your services especially on gettingour products and deliveries on time. You help us keep the trust and satisfaction we provide to our clients as well.We are looking forward to continue doing business with you for more years.Thank you very much!</p>
+        </div>
+      </div>
+      <!--Card-->
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-md-6">
+      <!--Card-->
+      <div class="card testimonial-card">
+        <!--Background color-->
+        <div class="card-up indigo"></div>
+        <!--Avatar-->
+        <div class="avatar mx-auto white">
+          <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle img-fluid">
+        </div>
+        <div class="card-body">
+          <!--Name-->
+          <h4 class="font-weight-bold mb-4">Maria Kate</h4>
+          <hr>
+          <!--Quotation-->
+          <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Hi, I would like to commend JMSF Furniture, especially Ms. Sheryl Lanon for assisting about my request from quotation to order proper and payment. She respond to my email quickly and I don't have any problem contacting her if I have a questions. We bought 6 office table and it's very affordable compare to other supplier and it has good quality. One problem that I encounter is during the delivery date,but everything is well now.</p>
+        </div>
+      </div>
+      <!--Card-->
+    </div>
+    <!--Grid column-->
+
+  </div>
+  <!-- Grid row -->
+
+</section>
+<!-- Section: Testimonials v.1 -->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+    .bs-example{
+        margin: 20px;        
+    }
+</style>
+</head>
+<body>
+
+<div class="bs-example">
+    <form action="/examples/actions/confirmation.php" method="post">
+        <div class="form-group">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword">Password</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox"> Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-</html>  
+</html>

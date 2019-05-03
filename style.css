@@ -1,0 +1,29 @@
+
+.navbar {
+	background-color: blue;
+}
+
+div.jumbotron {
+  background-image: url(wow.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  text-shadow: 0px 1px;
+
+  font-family: 'Volkhov', serif;
+
+}
+
+#card{
+	box-shadow: 20px;
+	padding: 20px;
+}
+
+.carousel-inner {
+	width: 50px;
+}
+
+.form-group{
+	width: 500px;
+}
